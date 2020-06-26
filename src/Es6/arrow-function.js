@@ -8,4 +8,4 @@ dobro = (num) => { //Função arrow é sempre anonima, se vc quer chamar ela dep
 
 dobro = num => 2 * num //Se você tiver só um parâmetor e uma função de uma linha o return fica implicito
 
-console.log(dobro(2))
+console.log(dobro(2)) //this associado ao contexto no qual a funçõ foi escrita
